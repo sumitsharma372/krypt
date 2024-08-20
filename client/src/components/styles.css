@@ -1,0 +1,25 @@
+.date-input {
+    appearance: none; /* Remove default styling */
+    -webkit-appearance: none;
+    background-color: #1e293b; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 12px 16px; /* Spacing */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #3b82f6; /* Blue border */
+    font-size: 1rem; /* Font size */
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .date-input:hover {
+    border-color: #2563eb; /* Darker blue on hover */
+  }
+  
+  .date-input:focus {
+    border-color: #1d4ed8; /* Darkest blue on focus */
+    box-shadow: 0 0 8px rgba(37, 99, 235, 0.5); /* Glow effect on focus */
+  }
+  
+  .date-input::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Change color of date picker icon */
+  }
+  
